@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    user-select: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+li{
+    height: 200px; width: 200px;
+    transition: 0.3s all;
+    box-shadow: 10px 10px 20px 2px gray;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
